@@ -1,3 +1,3 @@
-# LeetCode_Practice
+# Logical Thinking Practice
 
-### I am a beginner practicing Leetcode questions
+### I am a beginner all practice coding questions
