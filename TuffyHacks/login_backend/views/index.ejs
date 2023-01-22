@@ -1,0 +1,19 @@
+<html lang="en">
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <body>
+    <%- include('./partials/header.ejs') %>
+    <div class="form">
+      <div class="form-container">
+        <form action="/views/mainpage.ejs" method="GET">
+          <input type="text" placeholder="E.g. SpecialPotato" required />
+          <input
+            type="password"
+            placeholder="E.g. SpecialPotatoPassword"
+            required
+          />
+          <button id="submitbtn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

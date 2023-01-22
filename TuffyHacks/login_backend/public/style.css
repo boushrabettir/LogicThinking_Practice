@@ -1,0 +1,55 @@
+:root {
+  background-image: linear-gradient(
+    to top left,
+    rgb(206, 177, 123),
+    rgb(146, 110, 43)
+  );
+  font-family: 'Roboto', sans-serif;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 50vh;
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 60px;
+  color: rgb(81, 52, 9);
+  text-shadow: 0 0 10px rgb(193, 150, 93);
+}
+
+button {
+  border: none;
+  background-color: rgb(47, 90, 47);
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.form-container {
+  background-color: rgb(111, 81, 48);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(76, 55, 40);
+  padding: 150px;
+}
+form input {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 10px;
+}
+
+#wow {
+  text-align: center;
+  color: rgb(68, 5, 5);
+  font-weight: 800;
+  font-size: 90px;
+  margin: 50px;
+}
