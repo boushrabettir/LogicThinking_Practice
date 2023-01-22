@@ -6,7 +6,7 @@ const server = express();
 
 server.set('view engine', 'ejs');
 server.use(express.static('public'));
-server.use(express.urlencoded({ extended: true })); // all the url encoded data and passes into obejct for request post
+server.use(express.urlencoded({ extended: true })); // do i even need this?
 server.use(mg('tiny'));
 
 server.listen(3000);
